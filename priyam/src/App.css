@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  flex-flow: column;
+}
+.body> h1{
+  text-shadow: 2px 3px 4px black;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  flex-flow: column;
+  padding: 8px;
+  margin: 3px;
+  background-color: rgb(60, 60, 153);
+  width: 30vw;
+  height: 40vh;
+  box-shadow: 2px 3px 8px black;
+  border-radius: 10px;
+}
+
+label{
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+}
+button{
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 10vw;
+ background-color: rgb(5, 21, 238);
+ border-color: rgb(5, 21, 238);
+ color: white;
+}
+.halum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+input{
+  width :25vw;
+  margin-bottom: 5px;
+}
+.showData{
+  /* border: 2px solid red; */
+  background-color: rgb(60, 60, 153) ;
+  display: flex;
+  width: 35vw;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+
+}

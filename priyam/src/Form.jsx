@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function NewForm() {
+function Form() {
     const [UserRegistration, setUserRegistration] = useState({
         UserName: "",
         Email: "",
@@ -84,5 +84,5 @@ function NewForm() {
         </div>
     )
 }
-export default NewForm
+export default Form
 
