@@ -41,7 +41,7 @@ function NewForm() {
                 </div>
                 <div className="halum">
                     <label htmlFor="Email">Email</label>
-                    <input type="text" autoComplete="off"
+                    <input type="email" autoComplete="off"
                         value={UserRegistration.Email}
                         onChange={HandleInput}
                         name="Email"
@@ -49,7 +49,7 @@ function NewForm() {
                 </div>
                 <div className="halum">
                     <label htmlFor="PhoneNumber">Phone Number</label>
-                    <input type="text" autoComplete="off"
+                    <input type="number" autoComplete="off"
                         value={UserRegistration.PhoneNumber}
                         onChange={HandleInput}
                         name="PhoneNumber"

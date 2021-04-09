@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
+import PokemonList from './PokemonList'
 
-function Pagination({gotoNextPage,gotoPrevPage}) {
+function Pagination() {
+    const [name,setName]=useState("Charizard");
     return (
         <div>
-            {gotoPrevPage && <button onclick={gotoPrevPage}>Previous</button>}
-            {gotoNextPage && <button onClick={gotoNextPage}>Next</button>}
+            <h1>This is Psgination</h1>
+            <PokemonList setName={setName}/>
+            {name}
         </div>
     )
 }
